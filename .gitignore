@@ -1,0 +1,12 @@
+node_modules/
+src/libraries/bower/
+dist/
+.publish/
+.idea/
+*.log
+Thumbs.db
+.DS_Store
+prepros.cfg
+*.sublime*
+*.map
+css/*.css
