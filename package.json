@@ -1,16 +1,21 @@
 {
   "name": "web",
   "version": "1.0.0",
+  "url": "git://github.com/yeffasol/web.git",
   "description": "webpack starter project",
   "scripts": {
-    "start": "webpack-dev-server --port 3000",
+    "start": "webpack-dev-server",
     "prod": "set NODE_ENV=production&&webpack -p"
   },
-  "keywords": [],
+  "private": true,
   "author": "Marat Shaymardanov",
-  "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^6.7.5",
+    "babel": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
     "css-loader": "^0.26.1",
     "css-mqpacker": "^5.0.1",
     "extract-text-webpack-plugin": "^2.0.0-rc.3",

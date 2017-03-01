@@ -1,2 +1,2 @@
-const css = require('../css/app.scss');
+const css = require('../scss/app.scss');
 console.log(3);
