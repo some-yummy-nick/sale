@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "name": "barbershop"
+    },
+    {
+      "name": "sedona"
+    },
+    {
+      "name": "pink"
+    },
+    {
+      "name": "mishka"
+    },
+    {
+      "name": "fitnesstime"
+    },
+    {
+      "name": "lambda"
+    },
+    {
+      "name": "nerds"
+    }
+  ]
+}
