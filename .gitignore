@@ -1,8 +1,9 @@
 node_modules/
-src/libraries/bower/
 dist/
 .publish/
 .idea/
+bash.exe*
+npm-debug.log*
 *.log
 Thumbs.db
 .DS_Store

@@ -1,3 +1,3 @@
-const css = require('../scss/app.scss');
-import myModule from './template';
-myModule();
+const css = require('../scss/style.scss');
+import fonts from "./fonts";
+fonts();
