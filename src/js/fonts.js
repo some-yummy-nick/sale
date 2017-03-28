@@ -1,5 +1,6 @@
 var FontFaceObserver = require('fontfaceobserver');
-export default function fonts () {
+
+export default function fonts() {
   var font = new FontFaceObserver('Oswald');
 
   font.load().then(function () {
@@ -7,4 +8,6 @@ export default function fonts () {
     document.documentElement.className += " fontOneLoad";
   });
 }
+
+
 

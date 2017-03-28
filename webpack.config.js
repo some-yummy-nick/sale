@@ -3,6 +3,7 @@ const path = require('path'),
   ExtractTextPlugin = require("extract-text-webpack-plugin"),
   CopyWebpackPlugin = require('copy-webpack-plugin'),
   FaviconsWebpackPlugin = require('favicons-webpack-plugin');
+
 let NODE_ENV = process.env.NODE_ENV || 'development';
 
 module.exports = {
@@ -76,7 +77,6 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'my app',
       template: 'src/index.html',
       minify: {
         collapseWhitespace: NODE_ENV == 'production'
