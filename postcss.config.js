@@ -9,9 +9,6 @@ module.exports = {
     }),
     require('postcss-flexibility'),//для поддержки flexbox в ie 8 & 9
     require('postcss-line-height-px-to-unitless')(), //line-height из px в число
-    require('postcss-pxtorem')({
-      replace: false
-    }),                //px в rem
     require('postcss-inline-svg')(), //вставка svg в css
     require('postcss-filter-gradient'),//поддержка градиентов ниже ie9
     require("postcss-color-rgba-fallback"),//добавляет цвет если нет поддержки прозрачности

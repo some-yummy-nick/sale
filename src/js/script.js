@@ -1,6 +1,7 @@
 require('flexibility');
 const css = require('../scss/style.scss');
-import fonts from "./fonts";
+import preloader from "./preloader";
 import links from "./links";
 links();
-fonts();
+
+preloader();
