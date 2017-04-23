@@ -45,6 +45,7 @@
     "webpack-dev-server": "^2.4.1"
   },
   "dependencies": {
+    "fontawesome-scss": "^2.0.4",
     "normalize.css": "^6.0.0"
   }
 }
