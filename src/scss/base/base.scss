@@ -12,23 +12,20 @@ body {
   height: 100%;
 }
 html{
-  // set background color for overscroll
+
 }
 body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   position: relative;
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  font-family: $font;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.42;
   overflow-x: hidden;
-}
-.fontOneLoad body {
-  font-family: $font;
 }
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
@@ -63,4 +60,22 @@ a{
 }
 .container{
   @include container;
+}
+.section__title {
+  @include inlineBlock();
+  width: 270px;
+  font-size: 30px;
+  font-weight: 700;
+  &--information {
+    display: block;
+    color: #797979;
+  }
+  &--contacts{
+    color: #fefefe;
+  }
+}
+
+.section__text {
+  font-size: 15px;
+  color: #3b3b3b;
 }
