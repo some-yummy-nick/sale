@@ -1,0 +1,14 @@
+.references {
+    min-height: 136px;
+    background: #fff;
+    &__items {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    &__item {
+        display: inline-block;
+        vertical-align: top;
+        @include marginRight();
+    }
+}

@@ -1,8 +1,8 @@
 {
-  "name": "web",
+  "name": "oneluke",
   "version": "1.0.0",
-  "url": "git://github.com/yeffasol/web.git",
-  "description": "webpack starter project",
+  "url": "git://github.com/yeffasol/one.git",
+  "description": "webpack project oneluke",
   "scripts": {
     "start": "webpack-dev-server",
     "prod": "set NODE_ENV=production&&npm run clean&&webpack -p",
@@ -44,6 +44,9 @@
     "webpack-dev-server": "^2.4.1"
   },
   "dependencies": {
+    "fontawesome-scss": "^2.0.4",
+    "jquery": "^3.2.1",
+    "jquery-countdown": "^2.2.0",
     "normalize.css": "^6.0.0"
   }
 }

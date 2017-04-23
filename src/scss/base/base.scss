@@ -12,7 +12,7 @@ body {
   height: 100%;
 }
 html{
-  // set background color for overscroll
+
 }
 body {
   min-height: 100vh;
@@ -60,4 +60,22 @@ a{
 }
 .container{
   @include container;
+}
+.section__title {
+  @include inlineBlock();
+  width: 270px;
+  font-size: 30px;
+  font-weight: 700;
+  &--information {
+    display: block;
+    color: #797979;
+  }
+  &--contacts{
+    color: #fefefe;
+  }
+}
+
+.section__text {
+  font-size: 15px;
+  color: #3b3b3b;
 }

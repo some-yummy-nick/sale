@@ -103,7 +103,7 @@ module.exports = {
       // Inject the html into the html-webpack-plugin
       inject: true,
       // favicon background color (see https://github.com/haydenbleasel/favicons#usage)
-      background: '#fff',
+      background: '#000',
       // favicon app title (see https://github.com/haydenbleasel/favicons#usage)
       title: 'Webpack App',
 
@@ -122,7 +122,8 @@ module.exports = {
       }
     }),
     new CopyWebpackPlugin([
-      {from: 'src/fonts/', to: 'fonts'}
+      {from: 'src/fonts/', to: 'fonts'},
+      {from: 'src/libraries/', to: 'libraries'}
     ])
   ]
 }

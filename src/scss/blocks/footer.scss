@@ -1,3 +1,14 @@
 .footer{
-  background-color: firebrick;
+  text-align: right;
+  color: #9b9b9b;
+  font-size: 14px;
+  font-weight: 300;
+  & .container{
+    @include clearfix;
+  }
+  &__item{
+    &:nth-of-type(1){
+      float: left;
+    }
+  }
 }
