@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server",
     "prod": "set NODE_ENV=production&&npm run clean&&webpack -p",
-    "clean": "rimraf ./dist/*"
+    "clean": "rimraf ./dist/*",
+    "sprite":"svg-sprite-generate -d ./src/images/svg/ -o ./src/images/sprite.svg"
   },
   "private": true,
   "author": "Marat Shaymardanov",
