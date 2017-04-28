@@ -1,3 +1,5 @@
+http://yeffasol.github.io/sale/
+
 ## Installation
 
 npm i
