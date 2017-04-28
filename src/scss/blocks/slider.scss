@@ -1,0 +1,25 @@
+.slider {
+  position: relative;
+  &__list {
+    @include noList;
+  }
+  &__controls {
+    position: absolute;
+    right: 0;
+    top: 0;
+    &-left, &-right {
+      @include inlineBlock();
+      width: 22px;
+      height: 22px;
+      @include marginLeft(10px);
+      background-color: #cf1636;
+      border-radius: 100%;
+    }
+    svg {
+      width: 22px;
+      height: 22px;
+      fill: #fff;
+      cursor: pointer;
+    }
+  }
+}

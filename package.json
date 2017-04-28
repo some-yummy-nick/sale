@@ -7,8 +7,8 @@
     "start": "webpack-dev-server",
     "prod": "set NODE_ENV=production&&npm run clean&&webpack -p",
     "clean": "rimraf ./dist/*",
-    "sprite":"svg-sprite-generate -d ./src/images/svg/ -o ./src/images/sprite.svg"
-     "deploy": "gh-pages -d dist"
+    "sprite": "svg-sprite-generate -d ./src/images/svg/ -o ./src/images/sprite.svg",
+    "deploy": "gh-pages -d dist"
   },
   "private": true,
   "author": "Marat Shaymardanov",
@@ -48,6 +48,7 @@
   },
   "dependencies": {
     "fontawesome-scss": "^2.0.4",
-    "normalize.css": "^6.0.0"
+    "normalize.css": "^6.0.0",
+    "slick-carousel": "^1.6.0"
   }
 }
